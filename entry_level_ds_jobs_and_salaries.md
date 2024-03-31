@@ -2,6 +2,7 @@
 ### by Raphael Manayon
 ### March 31, 2024
 
+
 ## The Context
 
 This project was created by me for an analytics course capstone. As part
