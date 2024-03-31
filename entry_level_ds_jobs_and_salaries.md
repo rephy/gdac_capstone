@@ -147,7 +147,7 @@ frame.
       labs(title = "Entry Level Jobs Offered by Company Size in 2024", subtitle = "By Raphael Manayon",
            x = "Company Size (S/M/L)", y = "# of Entry Level Jobs Offered")
 
-![](entry_level_jobs_by_category.png)
+![](entry_level_jobs_by_company_size.png)
 
 It seems that all entered U.S. companies offering entry-level jobs in
 2024 have a medium size. If you’re looking for an entry-level data
@@ -202,7 +202,7 @@ the median of salaries where each job title is observed.
       theme(axis.text.x = element_text(angle = 25), legend.position = "none") +
       scale_y_continuous(labels = label_comma())
 
-![](entry_level_ds_jobs_and_salaries_files/figure-markdown_strict/unnamed-chunk-10-1.png)
+![](salaries.png)
 
 Entry-level research scientists are the highest-paid entry-level data
 scientists out there in the U.S. However, this title usually requires
