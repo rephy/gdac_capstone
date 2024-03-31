@@ -14,6 +14,7 @@ Shaw](https://www.kaggle.com/abhinavshaw09), and was last updated 22
 days before this project. His dataset on jobs and salaries in data
 science can be found
 [here](https://www.kaggle.com/datasets/abhinavshaw09/data-science-job-salaries-2024).
+A glimpse of his data can be viewed there.
 
 ## Constraints
 
@@ -86,11 +87,11 @@ observations of data using job titles and counted the number of
 observations by job titles. The results were saved into another data
 frame.
 
-    num_of_jobs <- entry_level_us_salaries_2024 %>% count(job_title) %>% rename(num_of_jobs = n) %>% arrange(desc(num_of_jobs))
+    num_of_jobs_by_title <- entry_level_us_salaries_2024 %>% count(job_title) %>% rename(num_of_jobs = n) %>% arrange(desc(num_of_jobs))
 
 ## Plotting The Data Frame
 
-    num_of_jobs %>% ggplot(mapping = aes(x = job_title, y = num_of_jobs)) +
+    num_of_jobs_by_title %>% ggplot(mapping = aes(x = job_title, y = num_of_jobs)) +
       geom_bar(mapping = aes(fill = job_title), stat = "identity") +
       labs(title = "Job Titles and Offered Entry Level Jobs in 2024", subtitle = "By Raphael Manayon",
            x = "Job Title", y = "# of Entry Level Jobs Offered") +
@@ -137,7 +138,7 @@ Following setup, I counted the number of observations by either a small,
 medium, or large company size. This was also saved into another data
 frame.
 
-    entry_level_num_of_jobs_by_company_size <- entry_level_us_salaries_2024 %>% count(company_size) %>% rename(job_opportunities = n)
+    entry_level_num_of_jobs_by_company_size <- entry_level_us_salaries_2024 %>% count(company_size) %>% rename(job_opportunities = n) %>% arrange(desc(job_opportunities))
 
 ## Plotting The Data Frame
 
