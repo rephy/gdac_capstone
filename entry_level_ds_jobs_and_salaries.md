@@ -147,7 +147,7 @@ frame.
       labs(title = "Entry Level Jobs Offered by Company Size in 2024", subtitle = "By Raphael Manayon",
            x = "Company Size (S/M/L)", y = "# of Entry Level Jobs Offered")
 
-![](entry_level_ds_jobs_and_salaries_files/figure-markdown_strict/unnamed-chunk-7-1.png)
+![](entry_level_jobs_by_category.png)
 
 It seems that all entered U.S. companies offering entry-level jobs in
 2024 have a medium size. If you’re looking for an entry-level data
