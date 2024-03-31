@@ -97,7 +97,7 @@ frame.
            x = "Job Title", y = "# of Entry Level Jobs Offered") +
       theme(axis.text.x = element_text(angle = 25), legend.position = "none")
 
-![](num_of_jobs_by_title)
+![](../num_of_jobs_by_title.png)
 
 Looking at the plot, you can see that the title of “Business
 Intelligence Analyst” is the most offered amongst data science roles.
