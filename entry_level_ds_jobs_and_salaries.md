@@ -1,8 +1,6 @@
----
-title: '2024 Entry Level Data Science Jobs in the U.S.: Salaries and Opportunities'
-author: "Raphael Manayon"
-date: "March 31, 2024"
----
+# 2024 Entry Level Data Science Jobs in the U.S.: Salaries and Opportunities
+### by Raphael Manayon
+### March 31, 2024
 
 ## The Context
 
