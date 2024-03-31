@@ -1,5 +1,8 @@
-# Google Data Analytics Certification: Capstone
-## 2024 Entry Level Data Science Jobs in the U.S.
+---
+title: 'Data Science Jobs: Salaries and Opportunities'
+author: "Raphael Manayon"
+date: "March 31, 2024"
+---
 
 ## The Context
 
