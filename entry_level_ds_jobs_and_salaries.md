@@ -104,13 +104,7 @@ frame.
 
 ![](num_of_jobs_by_title.png)
 
-Looking at the plot, you can see that the title of “Business
-Intelligence Analyst” is the most offered amongst data science roles.
-Either way, if you’re interested in some form of data analytics and want
-to use business data and metrics to help your company make decision, you
-can read [this
-article](https://www.coursera.org/articles/business-intelligence-analysts-what-they-are-and-how-to-become-one)
-created by Coursera.
+Looking at the plot, you can see that the title of “Data Analyst” is the most offered amongst data science roles.
 
 # The Number of Jobs Offered: Company Size
 
